@@ -26,6 +26,29 @@ h2, p{
 p{
     font-family:Inter;
 }
+img{
+    background-color: hsl(277, 64%, 61%,);
+
+}
 .container-stats{
     display: flex;
+}
+
+@media screen and (max-width:375px) {
+    
+    .container-desktop{
+        display: none;
+    }
+
+
+
+}
+@media screen and (min-width:1440px) {
+
+    .container-mobile{
+        display: none;
+    }
+
+
+
 }
