@@ -19,7 +19,7 @@ span{
 }
 h2{
     font-family: lexend Deca;
-    opacity: .75;
+    
 }
 h2, p{
     color: white;
@@ -81,11 +81,66 @@ p{
 
 }
 /*media query for desktop 1440px*/
-@media screen and (min-width:1440px) {
+@media screen and (max-width:1440px) {
 
     .container-mobile{
         display: none;
     }
+    .container-desktop{
+        margin: auto;
+        margin-top: 15rem;
+        height: 40rem;
+        width: 70%;
+        display: flex;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 1rem;
+        
+    }
+    .desktop-flex{
+        margin: 4rem 0 4rem 4rem;
+        height: 100%;
+        width: 50%;
+        display: block;
+
+        
+    }
+    header{
+        height: 100%;
+        width: 50%;
+        display: block;
+        background-color: hsl(277, 64%, 58%);
+        
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        border-radius: 0 1rem 1rem 0;
+        opacity: .3;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.25rem;
+        margin-top: 4rem;
+        margin-bottom: -1rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .description{
+        margin: 3rem;
+        margin-left: 0rem;
+    }
+    .container-stats{
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .first-stat{
+        font-size: 1.25rem;
+    }
+
 
 
 
